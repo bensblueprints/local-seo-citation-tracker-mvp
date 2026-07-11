@@ -1,0 +1,17 @@
+services:
+  citewatch:
+    build: .
+    container_name: citewatch
+    restart: unless-stopped
+    ports:
+      - "5363:5363"
+    environment:
+      - PORT=5363
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-change-me}
+      - DB_PATH=/app/data/citewatch.db
+      - GOOGLE_PLACES_API_KEY=${GOOGLE_PLACES_API_KEY:-}
+    volumes:
+      - citewatch-data:/app/data
+
+volumes:
+  citewatch-data:
