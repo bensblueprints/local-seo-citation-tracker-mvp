@@ -2,7 +2,11 @@
 
 ## Demo
 
-VIDEO-PLACEHOLDER
+
+
+https://github.com/user-attachments/assets/6b5b655b-9a55-4fd4-a5be-42eaa5479a87
+
+
 
 **One NAP, everywhere, always. Pay once — not $39/mo.**
 
